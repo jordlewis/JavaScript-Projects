@@ -12,9 +12,13 @@ function myFunction() {
     document.getElementById("lyrics").innerHTML = sentence; //When clicking on the text, it changes the text to the concatenated strings 
 }
 
-function mySecondfunction() {
+function mySecondFunction() {
     var sentence = "You don't listen too well,";
     sentence += " do ya?";
     document.getElementById("test").innerHTML = sentence; //Mousing on the text, it changes the text to the concatenated strings 
     document.getElementById("test").style.color = "purple"; //Mousing over the text, it changes the font color to purple
 }
+
+var headers = document.getElementById("h1");
+
+
