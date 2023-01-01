@@ -16,8 +16,10 @@ function Add_numbers_3() {
     document.write(5 + B + "<br>");
 }
 function Add_numbers_4() {
-    document.write(B + 2); //Variable B is undefined because it's not local to this function as shown in the console using Devl Tools. Variable B is located inside "Add_numbers_3". 
-    }
+    console.log("This function, Add_numbers_4, will throw an error as the variable B is not local, nor global")
+    document.write(B + 2); //Variable B is undefined because it's not local to this function as shown in the console using Devl Tools. Variable B is located inside "Add_numbers_3".  
+}
+
 Add_numbers_3();
 Add_numbers_4();
 
