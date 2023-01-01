@@ -48,12 +48,12 @@ function constant_Function() {
 //Utilizing the "let" keyword to change the value within scope of a block of code between curly braces
 function let_Function() {
     var D = 21;
-    document.write(D);
+    document.getElementById("First_Variable").innerHTML = D;
     {
         let D = 12;
-        document.write("<br>" + D); 
+        document.getElementById("Let_Keyword").innerHTML = D; 
     }
-    document.write("<br>" + D);
+    document.getElementById("After_Block").innerHTML = D;
 }
 
 //Utilizing the "return" function to calculate the product of 2 numbers within function "my_Return"
