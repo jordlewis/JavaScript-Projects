@@ -1,0 +1,83 @@
+#menuBG {
+    width: 600px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+}
+
+#totalPrice { 
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float: right;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 25px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btnOrder:hover {
+    background-color: maroon;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+body {
+    background-color: rgb(77, 77, 209); /*Changes the background of the page*/
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif; /*Sets the font family for all text located within the body, such as the headers, menu options, etc*/
+}
+
+h1 { 
+        text-align: center; /*centering h1 elements*/
+}
+
+h1, h3 {
+    text-decoration: underline; /*Underlining all headers*/
+    color: #F5FFFA; /* Sets the color of all headers on the page */
+}
+
+div {
+    color: #FFFFFF;
+    font-size: large; /*Set's the font size in the diz to "large"*/
+}
