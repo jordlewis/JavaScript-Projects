@@ -39,7 +39,8 @@ function getTopping(runningTotal, text1) {
     for (var j = 0; j < toppingArray.length; j++) {
         if (toppingArray[j].checked) {
             selectedTopping.push(toppingArray[j].value); //Establishes the selected toppings based off the value of index selected
-            console.log("selected topping item: (" + toppingArray[j].value + ")");//
+            console.log("selected topping item: (" + toppingArray[j].value + ")");
+            text1 = text1 + toppingArray[j].value + "<br>";
         }
     }
     var toppingCount = selectedTopping.length; //establishes toppingCount variable as the total amount of toppings selected

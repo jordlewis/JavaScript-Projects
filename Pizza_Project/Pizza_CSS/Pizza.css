@@ -6,7 +6,7 @@
 
 #frmMenu {
     width: 600px;
-    height: 200px;
+    height: 250px;
 }
 
 #totalPrice { 
@@ -24,7 +24,7 @@
 
 .center {
     width: 200px;
-    height: 200px;
+    height: 250px;
     float: left;
 }
 
