@@ -1,3 +1,4 @@
+
 //Creates an object to keep track of values
 const Calculator = {
     //This will display 0 on the calculator screen
